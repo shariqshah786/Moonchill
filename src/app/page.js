@@ -11,7 +11,7 @@ const App = () => {
   const [selectedGenre, setSelectedGenre] = useState("home");
   return (
     <>
-      <div className="flex h-screen bg-gray-900">
+      <div className="flex min-h-screen bg-gray-900">
         {/* Desktop Sidebar */}
         <div className="hidden md:block">
           <Sidebar
